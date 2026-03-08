@@ -1,0 +1,9 @@
+1.First of all I created two files naming commit-file-A.txt and commit-file-B.txt
+2.I just want commit the first file by following the procedure given below
+steps : 
+        1. creating directory by using "mkdir"
+        2. chaning to the directory by using "cd"
+        3. adding only file i.e, first file into the staging area by using "git add <file name>"
+        4. commiting the file into my local repository by using "git commit -m <message>"
+        5. pushing the file into the remote repository by using "git push origin <branch name>"
+        6. here I used git verify instead of git push command
