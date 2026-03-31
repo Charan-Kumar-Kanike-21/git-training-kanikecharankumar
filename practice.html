@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class = "text-white bg-gray-900">
+
+    <!-- Navbar -->
+    <nav class = "flex flex-col md:flex-row gap-2 justify-between bg-gray-800 p-4">
+        <h1 class = "font-bold text-2xl">My Portfolio</h1>
+        <div class = "mr-4 text-lg">
+            <a href = "#About" class = "text-white ml-3 hover:text-blue-400">About</a>
+            <a href = "#Projects" class = "text-white ml-3 hover:text-blue-400">Projects</a>
+            <a href = "#Skills" class = "text-white ml-3 hover:text-blue-400">Skills</a>
+            <a href = "#Contact" class = "text-white ml-3 hover:text-blue-400">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section>
+        <div class = "relative h-[80vh] bg-cover bg-center flex justify-center items-center" style = "background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413');">
+            <div class = "absolute inset-0 bg-black/50"></div>
+            <div class = "relative text-center">
+                <h2 class = "text-4xl font-bold">I'm Kanike Charan Kumar</h2>
+                <p class = "mt-4 text-gray-300">Frontend Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <div id ="About"  class = "p-5">
+        <h2 class = "text-2xl font-bold mb-3">About Me</h2>
+        <ul class = "text-gray-400 mt-2 space-y-2 pl-5 list-disc">
+            <li>I'm a passionate frontend developer currently working on creating responsive and user-friendly web applications.</li>
+            <li>I have experience with HTML, CSS, and Tailwind CSS.</li>
+            <li>I enjoy exploring new tools and improving my problem-solving abilities.</li>
+        </ul>
+    </div>
+
+    <!-- Projects -->
+    <div id = "Projects" class = "flex flex-col space-y-2 p-5 bg-gray-800">
+        <h2 class = "text-2xl font-bold mb-3">Projects</h2>
+        <div class = "flex flex-col md:flex-row gap-6 ">
+            <div class = "bg-gray-700 p-5 rounded">
+                <h3 class = "text-lg font-bold">Project-1</h3>
+                <p>Simple website using HTML & CSS</p>
+            </div>
+            <div class = "p-5 bg-gray-700 rounded">
+                <h3 class = "text-lg font-bold">Project-2</h3>
+                <p>Responsive layout with Tailwind CSS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id = "Skills" class = "p-5">
+        <div>
+            <h3 class = "text-2xl font-bold mb-3">Skills</h3>
+            <div class = "flex flex-wrap gap-3">
+                <span class = "mr-3 bg-blue-500 text-white rounded p-2">HTML</span>
+                <span class = "mr-3 bg-green-500 p-2 rounded text-white">CSS</span>
+                <span class = "bg-purple-500 p-2 rounded text-white">Tailwind CSS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id = "Contact" class = "p-5 bg-gray-800">
+        <h2 class = "text-2xl font-bold mb-2">Contact</h2>
+        <p class = "text-gray-300">Email: kanikecharankumar.251cs131@nitk.edu.in</p>
+    </div>
+
+    <!-- Message Box -->
+    <div class = "p-5">
+        <h2 class = "text-2xl font-bold">Message Box</h2>
+        <div class = "p-5 bg-gray-800 rounded mt-2">
+            <!-- Toolbar -->
+            <div class = "mb-1">
+                <button class = "px-3 py-1 mr-3 bg-gray-700 rounded mt-1 mb-1">B</button>
+                <button class = "px-3 py-1 mr-3 bg-gray-700 rounded mt-1 mb-1">I</button>
+                <button class = "px-3 py-1 mr-3 bg-gray-700 rounded mt-1 mb-1">&lt;/&gt;</button>
+                <button class = "px-3 py-1 mr-3 bg-gray-700 rounded mt-1 mb-1">Link</button>
+                <button class = "px-3 py-1 mr-3 bg-gray-700 rounded mt-1 mb-1">Image</button>
+            </div>
+            <!-- Textarea -->
+            <textarea class = "bg-gray-900 w-full h-40 p-3 border border-gray-600"></textarea>
+            <div class = "flex justify-center">
+                <button class = "bg-green-500 px-4 py-1 rounded mt-3">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <footer class = "bg-gray-800 text-center p-5">
+        <p>Thank You!!!</p>
+        <p>&copy; 2026 Copy Right Of Portfolio</p>
+    </footer>
+</body>
+</html>
